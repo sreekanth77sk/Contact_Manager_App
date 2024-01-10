@@ -1,0 +1,52 @@
+.contact-container{
+    background-color: rgb(38, 38, 38);
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-contact{
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(60, 60, 60);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 12px gray inset;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.c-name{
+    font-weight: 500;
+    font-style: italic;
+}
+.c-number{
+    font-weight: 400;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.icon{
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+}
+.del-icon{
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+    color: red
+}
+.del-icon:hover{
+    color: brown;
+}

@@ -1,0 +1,44 @@
+.calllog-container{
+    background-color:rgb(38, 38, 38);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+.calllog-list-container{
+    background-color: rgb(60, 60, 60);
+    width: 60vw;
+    height: 100vh;
+    overflow: scroll;
+    padding: 30px;
+    color: aliceblue;
+    scroll-behavior: smooth;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 60%;
+    color: aliceblue;
+    background-color:rgb(40, 40, 40);
+    border: 1px solid cornflowerblue;
+}
+.nav-text{    
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px;
+    color: cornflowerblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.back{
+    color: aliceblue;
+}
+.back:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}

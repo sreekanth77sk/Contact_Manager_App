@@ -1,0 +1,47 @@
+.bg-container{
+    background-color: rgb(38, 38, 38);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calling-card{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    height: 65vh;
+    width: 50vw;
+    border-radius: 25px;
+}
+.calling-details{
+    display: flex;
+    flex-direction: column;
+}
+.calling-heading{
+    color: cornflowerblue;
+    font-weight: 100;
+}
+.calling-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.calling-num{
+    font-weight: 200;
+}
+.end-btn{
+    font-weight: 400;
+    font-style: oblique;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: rgb(214, 46, 46);
+    box-shadow: 0px 4px rgb(106, 38, 38);
+}
+.end-btn:hover{
+    cursor: pointer;
+    scale: 1.1; 
+    background-color: brown;      
+}
