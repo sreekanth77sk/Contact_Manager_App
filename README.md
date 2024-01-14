@@ -1,3 +1,19 @@
+# Contacts Application
+ ## User can add contacts, those will be added in the Local storage of the machine. By default few contacts are added.
+
+ ## User can see contact details by clicking on the contact.
+
+ ## User can call the particular contact from detailed view of contact.
+
+ ## User can only delete a contact if it is added by the User, default contacts can not be deleted.
+
+ ## In conatcts list page, "RECENTS" button is there, user can see the call history by clicking on that button.
+    
+
+# TO RUN THIS APPLICATION RUN THE BELOW COMMANDS IN THE PROJECT FOLDER
+ $ npm i   (Installs Node Package Manager.)
+ $ npm start    (Runs the Application in the browser.)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
